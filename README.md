@@ -46,7 +46,7 @@ We:
 2. Install dependencies
    ```bash
    pip install -r requirements.txt
-3. Run the notebook. The Cross Validation will take hours, so pre-calculated values are already present in the `cv_results_upload.pkl` file. To use them simply skip the `scores = cross_validate()` cell and the `with open("cv_results.pkl", "wb") as f:` cell. 
+3. Run the notebook.
     ```bash
    jupyter notebook main.ipynb
 
